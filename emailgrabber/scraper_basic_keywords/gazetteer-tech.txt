@@ -1,0 +1,15 @@
+C
+C++
+Java
+Perl
+Python
+Machine learning
+Object oriented programming
+Javascript
+PHP
+Mysql
+Drupal
+node.js
+ruby
+meteor.js
+backbone.js

@@ -1,0 +1,39 @@
+freshdesk.com:
+        js: true
+        pagination: false
+        one_per_page: false
+        wrapper: 'div.career-container div.fdpos-desc_container div.fd-posdesc'    
+        title: 'h3'
+        location: 'h6'
+        description: 'div'
+
+akamaijobs.referrals.selectminds.com:
+        js: false
+        wrapper: 'div#job_details_content'
+        title: 'h1.title'
+        location: 'h4.primary_location a'
+        description: 'div#description_box .job_description'
+        pagination:
+                page_url: '#page[?]'
+        one_per_page:
+                wrapper: '.results_content div.info_listings .job_list_row'
+                link: '.jlr_title a.job_link'
+        list_all: '/jobs/search'
+
+www.axelerant.com:
+        js: true
+        wrapper: '#resumator-wrapper .resumator-job'
+        title: 'div.resumator-job-title'
+        location: 'div.resumator-job-info'
+        description: 'div.resumator-job-description-text'
+
+pantheon.io:
+        js: true
+        iframe: '#grnhse_iframe'
+        one_per_page:
+                wrapper: '.level-0'
+                link: '.opening a'
+        wrapper: '#app_body'
+        title: 'h1.app-title'
+        location: 'div.location'
+        description: '#content'
