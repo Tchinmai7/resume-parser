@@ -1,4 +1,4 @@
-Django==1.11
+django>=1.11.19
 django-background-tasks==1.1.10
 django-compat==1.0.14
 psycopg2==2.7.1
